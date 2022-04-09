@@ -206,3 +206,15 @@ body {
     height: 36px;
     padding: 2px;
 }
+
+/* Fifth section (or block) of my landing page */
+
+.block5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    font-size: 18px;
+}
