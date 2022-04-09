@@ -25,9 +25,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
     padding-top: 16px;
-
 }
 
 .logo {
@@ -55,7 +53,7 @@ body {
     gap: 16px;
 }
 
-.ethimg{
+.smileimg{
     width: 300px;
     height: 200px;
     border: solid;
@@ -84,4 +82,47 @@ body {
     border-color: #3882F6;
     border-radius: 6px;
 }
+
+/* Second section (or block) of my landing page */
+
+.block2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+.info {
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bold;
+    
+}
+
+.fourblocks {
+    display: flex;
+    padding-top: 48px;
+}
+
+.indivblock {
+    display: flex;
+    flex-direction: column;
+    width: 156px;
+    gap: 8px;
+}
+
+.illu {
+    width: 108px;
+    height: 108px;
+    border: solid;
+    border-color:#3882F6;
+    border-radius: 8px;
+}
+
+.illudescription {
+    font-size: 18px;
+}
+
+
 
