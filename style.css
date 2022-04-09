@@ -9,17 +9,21 @@ body {
 /* First section (or block) of my landing page */
 
 .block1 {
+    display: flex;
+    justify-content: center;
     background-color: #1F2937;
-    height: 500px;
+    height: 500px; 
 }
 
 .subblock1 {
     display: flex;
     flex-direction: column;
     height: 500px;
-    background-color: #1F2937;
+    width: 1156px;
+    /*
     margin-left: 96px;
     margin-right: 96px;
+    */
 }
 
 .header {
@@ -49,7 +53,7 @@ body {
     display: flex;
     height: 500px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 16px;
 }
 
