@@ -47,9 +47,9 @@ body {
 
 .textnimg {
     display: flex;
-    justify-content: space-between;
     height: 500px;
     align-items: center;
+    justify-content: center;
     gap: 16px;
 }
 
@@ -124,5 +124,10 @@ body {
     font-size: 18px;
 }
 
+/* Third section (or block) of my landing page */
 
+.block3 {
+    background-color: #E5E7EB;
+    height: 300px;
+}
 
